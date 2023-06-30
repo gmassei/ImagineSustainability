@@ -1,0 +1,37 @@
+[general]
+name=LifeImagine
+qgisMinimumVersion=2.99
+qgisMaximumVersion=3.99
+description=Life imagine 
+version=0.1
+
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog=
+
+
+
+# tags are comma separated with spaces allowed
+tags=Natura 2000, Biodiversity, Sustainability, Geographic MCDA, Vector
+
+
+homepage=http://maplab.alwaysdata.net/LifeImagine.html
+tracker=https://github.com/gmassei/LifeImagine/issues
+repository=https://github.com/gmassei/LifeImagine
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+about= LifeImagine is a QGIS plugin for sustainability assessment in geographic environment. The outputs of LifeImagine are both geographic and graphic. More data and documents are available on http://maplab.alwaysdata.net/LifeImagine.html
+category=Vector
+
+# Author contact information
+author= University of Perugia (Developer: Gianluca Massei)
+email=geonomica@gmail.com
