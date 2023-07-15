@@ -63,7 +63,7 @@ class ImagineSustainability:
             ("No active layer found\n" "Please make active one \n" \
             "Do you need documents or data ?"), QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
             if result  == QMessageBox.Yes:
-                webbrowser.open("http://maplab.alwaysdata.net/ImagineSustainability.html")
+                webbrowser.open("http://maplab.alwaysdata.net/")
         elif (self.iface.activeLayer().storageType() != 'GPKG'):
             result=QMessageBox.warning(self.iface.mainWindow(), "ImagineSustainability",
             ("Active layer is not a geopackage format\n"), QMessageBox.Ok)
