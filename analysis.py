@@ -2,7 +2,7 @@
 
 """
 /***************************************************************************
-Name            : LifeImagine
+Name            : ImagineSustainability
 Description     : geographical MCDA for sustainability assessment
 Date            : 25/06/2023
 copyright       : Università degli Studi di Perugia (C) 2023
@@ -44,7 +44,7 @@ from . import DOMLEM
 from . import htmlGraph
 
 
-class LifeImagineAnlisys(QWidget):
+class ImagineSustainabilityAnlisys(QWidget):
     """ Implement all Analysis option """
     def __init__(self,activeLayer,parameterList):
         #QWidget.__init__(self)

@@ -2,7 +2,7 @@
 
 """
 /***************************************************************************
-Name            : LifeImagine
+Name            : ImagineSustainability
 Description     : geographical MCDA for sustainability assessment
 Date            : 25/06/2023
 copyright       : Università degli Studi di Perugia (C) 2023

@@ -2,7 +2,7 @@
 
 """
 /***************************************************************************
-Name            : LifeImagine
+Name            : ImagineSustainability
 Description     : geographical MCDA for sustainability assessment
 Date            : 25/06/2023
 copyright       : Università degli Studi di Perugia (C) 2023
@@ -22,5 +22,5 @@ email           : (developper) Gianluca Massei (geonomica@gmail.com)
 
 
 def classFactory(iface):	# inizializza il plugin
-	from .LifeImagine import LifeImagine	# importiamo la classe che realizza il plugin
-	return LifeImagine(iface)	# creiamo una istanza del plugin
+	from .ImagineSustainability import ImagineSustainability	# importiamo la classe che realizza il plugin
+	return ImagineSustainability(iface)	# creiamo una istanza del plugin
